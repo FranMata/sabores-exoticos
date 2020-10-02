@@ -63,3 +63,16 @@ table {
     font-size: 20px;
     font-family: verdana;
 }
+
+.encabezado{         
+    height: 15em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.piepagina{
+    margin: 0 auto;
+    height: 15em;
+    width: 100%;
+    overflow: hidden;
+}
