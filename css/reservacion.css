@@ -1,0 +1,15 @@
+.columna{
+    display: grid;
+    grid-template-columns: 800px 500px;
+    margin-left: 100px;
+}
+button{
+    margin-left: 100px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 1024px){
+    .columna{
+        display: inline-block;
+        margin-left: 2%;        
+    }
+}

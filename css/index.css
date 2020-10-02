@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(235, 195, 158);    
+}
+
+table, h1, img{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+table, h1{
+    width: 80%;
+    clear: both;
+    align-items: center;
+}
+section > table{
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 0px;
+}
+
+p{
+    background-color: rgb(169, 131, 79);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 1024px){
+    body{
+        display: block;
+    }  
+    table, h1, img{
+        overflow-x:auto;
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    table, h1{
+        width: 80%;
+        clear: both;
+        align-items: center;
+    }  
+}

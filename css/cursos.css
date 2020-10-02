@@ -1,0 +1,15 @@
+table, button, h1{
+    margin-left: 150px;   
+}
+
+table{
+    width: 80%;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 1024px){
+
+    table, button, h1{
+        margin-left: 2%;   
+    }
+
+}

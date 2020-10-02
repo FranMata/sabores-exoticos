@@ -1,0 +1,65 @@
+form{
+    display: block;
+}
+
+label{
+    font-size: 16px;
+    font-family: verdana;
+}
+
+p{
+    font-size: 16px;
+    font-family: verdana;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: verdana;
+    background-color: rgb(169, 131, 79); 
+    color: white; 
+    padding: 10px;  
+}
+
+button:hover{
+    background-color: rgb(205, 181, 148); 
+}
+
+button:active{
+    background-color: rgb(105, 82, 50);
+}
+
+input, textarea{
+    align-content: center;
+    border-radius: 10px;
+    height: 25px;
+    width: 200px;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+textarea{
+    width: auto;
+    height: auto;
+}
+
+table {
+    width: auto;
+    background-color: rgb(169, 131, 79);
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: verdana;
+    color: white;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid white;
+    
+ }
+
+ h1{
+    font-size: 20px;
+    font-family: verdana;
+}

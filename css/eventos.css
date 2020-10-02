@@ -1,0 +1,12 @@
+p, form{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 1024px){
+
+    p, form{
+        margin-left: 2%;   
+    }
+
+}

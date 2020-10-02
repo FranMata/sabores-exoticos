@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SE - Reservar</title>
+    <link rel="stylesheet" type="text/css" href="generico.css"media="all"/>
+    <link rel="stylesheet" type="text/css" href="reservacion.css"media="all"/>
+
+</head>
+<body>
+    
+    <iframe src="./encabezado.html" width="100%" height="200px"frameBorder="0"></iframe> 
+
+    <div class = "columna">
+    <form id="formUno">
+        <label>Nombre Completo</label>
+        <input type="text">
+        <br/>
+        <br/>
+        <br/>
+        <label>Numero de telefono</label>
+        <input type="text">
+        <br/>
+        <br/>
+        <br/>
+        <label>Correo Electronico</label>
+        <input type="text">
+        <br/>
+        <br/>
+        <br/>
+        <label>Describa su orden</label>
+        <input type="text">
+    </form>
+
+    
+        <form> 
+            <label>Reservar</label>
+            <input type="checkbox" id="checkBox">
+            <br/>
+            <br/>
+            <br/>
+            <label>Fecha</label>
+            <input type="date">
+            <br/>
+            <br/>
+            <br/>
+            <label>Hora</label>
+            <input type="time">
+            <br/>
+            <br/>
+            <br/>
+            <label>Cantidad de pesonas</label>
+            <input type="number">
+            <br/>
+            <br/>
+            <br/>
+            <label>Ubicacion dentro del restaurante</label>
+            <input type="text">
+        </form>
+    
+    </div>
+
+    <button type="submit" id="btnEnviar">Enviar</button>
+
+    <iframe src="./piepagina.html" width="100%" height="250px"frameBorder="0"></iframe> 
+
+    <script src="./script/reservacion.js" type="module"></script>
+</body>
+</html>
